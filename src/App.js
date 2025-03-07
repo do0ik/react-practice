@@ -6,9 +6,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/movie/:id" element={<Detail />} />
-        <Route path="/hello" element={<h1>Hello</h1>} />
+        <Route path={`${process.env.PUBLIC_URL}`} >
+          <Route index element={<Home />} />
+          <Route path="/movie/:id" element={<Detail />} />
+          <Route path="/hello" element={<h1>Hello</h1>} />
+        </Route>
       </Routes>
     </BrowserRouter>
   )
