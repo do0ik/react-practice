@@ -1,5 +1,15 @@
+.background {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+    scrollbar-width: none;
+
+    min-width: 1600px;
+    height: 100vh;
+}
+
 .rootContainer {
-    background-color: rgb(255, 255, 255);
     width: 1600px;
     margin: 0 auto;
     padding: 60px 0;

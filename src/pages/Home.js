@@ -21,7 +21,8 @@ function Home() {
   }, []);
 
   return (
-    <div className={styles.rootContainer}>
+    <div className={styles.background} style={{backgroundImage: `url("images/main-background.jpg")`}}>
+      <div className={styles.rootContainer}>
       {
         !loading
           ? <div className={styles.movieContainer}>
@@ -40,6 +41,7 @@ function Home() {
           </div>
           : <Loading />
       }
+      </div>
     </div>
   );
 }
