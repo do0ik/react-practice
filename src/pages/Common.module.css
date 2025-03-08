@@ -1,0 +1,19 @@
+.fontDS {
+    font-family: "DM Serif Text", "Pretendard-Regular";
+}
+
+.fontJS {
+    font-family: "Josefin Sans", "Pretendard-Regular";
+}
+
+.dFlex {
+    display: flex;
+}
+
+.alIEnd {
+    align-items: end;
+}
+
+.mlAuto {
+    margin-left: auto;
+}

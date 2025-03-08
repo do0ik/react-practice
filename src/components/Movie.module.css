@@ -1,0 +1,57 @@
+.movieCard {
+    position: relative;
+    border-radius: 20px;
+    
+    overflow: hidden;
+    
+    width: 350px;
+    height: 525px;
+}
+
+.movieCoverImg {
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.movieInfo {
+    position: absolute;
+    transition: all 0.5s;
+
+    opacity: 0%;
+    color: white;
+    
+    width: 100%;
+    height: 100%;
+
+    cursor: pointer;
+}
+
+.movieInfo:hover {
+    opacity: 100%;
+    background-color: rgba(100, 100, 100, 0.7);
+}
+
+.movieInfoInner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 40px;
+}
+
+.movieTitle {
+    font-size: 32px;
+    margin-top: 40px;
+}
+
+.movieGenre {
+    font-size: 22px;
+}
+
+.movieSummary {
+    font-size: 22px;
+    margin-top: auto;
+    margin-bottom: 40px;
+}
