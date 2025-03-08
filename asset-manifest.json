@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-practice/static/css/main.12a0cc64.css",
-    "main.js": "/react-practice/static/js/main.7e34a566.js",
+    "main.js": "/react-practice/static/js/main.df21f8cf.js",
     "index.html": "/react-practice/index.html",
     "main.12a0cc64.css.map": "/react-practice/static/css/main.12a0cc64.css.map",
-    "main.7e34a566.js.map": "/react-practice/static/js/main.7e34a566.js.map"
+    "main.df21f8cf.js.map": "/react-practice/static/js/main.df21f8cf.js.map"
   },
   "entrypoints": [
     "static/css/main.12a0cc64.css",
-    "static/js/main.7e34a566.js"
+    "static/js/main.df21f8cf.js"
   ]
 }
