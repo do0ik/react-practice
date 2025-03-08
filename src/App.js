@@ -6,10 +6,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path={`${process.env.PUBLIC_URL}`} >
+        <Route path={`${process.env.PUBLIC_URL}`} > {/* gh-pages 배포*/}
           <Route index element={<Home />} />
           <Route path="movie/:id" element={<Detail />} />
-          <Route path="hello" element={<h1>Hello</h1>} />
         </Route>
       </Routes>
     </BrowserRouter>
